@@ -272,6 +272,9 @@ h1 h2 h3{
 
 /*---------MY PROJECTS---------*/
 
+#projects h2{
+    margin-top: 50px;
+}
 
 #projects .projects{
     display: flex;
