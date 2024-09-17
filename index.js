@@ -8,9 +8,23 @@ document.querySelectorAll('a[href^="#]').forEach(anchor => {
     };
 });
 
-function downloadFile(){
-    const link = document.createElement('a');
-    link.href = 'Assets\Resume.pdf';
-    link.download = 'Resume.pdf';
-    link.click();
-}
+isToggled = false;
+    function toggleHeader(){
+        const navLinks = document.getElementById("navLinks");
+        const header = document.getElementById("header");
+        
+       header.classList.toggle("active");
+       navLinks.classList.toggle("active");
+    
+
+    if (isToggled){
+        toggleBtn.style.left = "0";
+        isToggled = false;
+    } else {
+        toggleBtn.style.left = "calc(100% - 30px)";
+        isToggled = true;
+    }
+    }
+    
+    
+

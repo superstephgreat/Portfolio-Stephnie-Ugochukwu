@@ -8,18 +8,21 @@
 </head>
 <body>
 <!---------------------NAV-BAR--------------------->
-  <header>
+  <header id="header">
    <div class="navbar">
-    <img src="Assets/profile-photo.JPG" alt="My profile photo" class="profile-photo">
+    <button class="toggle-button" id="toggleBtn" onclick="toggleHeader()"><img src="Assets/more_4571621.png" alt=""></button>
       <nav>
-          <ul>
-              <li><a href="#Home">Home</a></li>
-              <li><a href="#About">About me</a></li>
-              <li><a href="#skills">My Skills</a></li>
-              <li><a href="#projects">My Projects</a></li>
-              <li><a href="#contact">Contact me</a></li>
-              <li><button class="download_resume1"><a href="Assets/Resume.pdf" target ="_blank" download="Assets/Resume.pdf" >Download my Resume</a></button></li>
-          </ul>
+          <div class="nav-links" id="navLinks">
+            <img src="Assets/profile-photo.JPG" alt="My profile photo" class="profile-photo">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About me</a></li>
+                <li><a href="#skills">My Skills</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#contact">Contact me</a></li>
+                <li><button class="download_resume1"><a href="Assets/Resume.pdf" target ="_blank" download="Assets/Resume.pdf" >Download my Resume</a></button></li>
+            </ul>
+          </div>
       </nav>
     </div>  
   </header>
