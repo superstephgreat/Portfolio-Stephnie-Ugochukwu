@@ -237,6 +237,9 @@ h1 h2 h3{
 
 /*-----------MY SKILLS-----------*/
 
+#skills h2{
+    margin-top: 40px;
+}
 
 #skills .skills{
   display: flex;
