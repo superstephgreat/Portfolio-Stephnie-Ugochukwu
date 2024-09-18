@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Stephnie Ugochukwu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!---------------------NAV-BAR--------------------->
+  <header id="header">
+   <div class="navbar">
+    <button class="toggle-button" id="toggleBtn" onclick="toggleHeader()"><img src="Assets/more_4571621.png" alt=""></button>
+      <nav>
+          <div class="nav-links" id="navLinks">
+            <img src="Assets/profile-photo.JPG" alt="My profile photo" class="profile-photo">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About me</a></li>
+                <li><a href="#skills">My Skills</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#contact">Contact me</a></li>
+                <li><button class="download_resume1"><a href="Assets/Resume.pdf" target ="_blank" download="Assets/Resume.pdf" >Download my Resume</a></button></li>
+            </ul>
+          </div>
+      </nav>
+    </div>  
+  </header>
+
+<!----------------------MAIN------------------------>
+  <main>
+      <!----------------HOME------------------->
+    <section id="Home">
+        <div class="container">
+            <div class="welcome-section">
+                <h1>Welcome to my Portfolio</h1>
+                  <p class="hello">Hello I'm</p>
+                  <p class="name">Stephnie Ugochukwu</p>
+                <span class="description">
+                   <i><img src="Assets/cloud.png" alt="icon"></i>
+                   <p>Web Developer</p>
+                </span>
+                <button class="view_projects"><a href="#projects">View my Projects</a></button>
+
+                <button class="download_resume2"><a href="Assets/Resume.pdf" target ="_blank" download="Assets/Resume.pdf">Download my Resume</a></button>
+            </div>
+            <div class="image-section">
+                <img src="Assets/My photo.png" alt="My photo">
+            </div>
+        </div>
+    </section>
+
+     <!--------------ABOUT ME----------------->
+     <section id="About">
+        <h1>About Me</h1>
+         <div class="about-me">
+            <p>
+                Hi!, I'm Stephnie Ugochukwu, a passionate aspiring software engineer from Nigeria with a focus 
+                on software development. I have a strong interest in programming and enjoy 
+                exploring various aspects of technology. 
+            </p>
+            <p>
+              In my journey as developer, I've created several projects that
+               reflect my skills and creativity.
+            </p>
+            <p>
+                I love reading as well, which helps me stay informed about industry trends
+                and expand my knowledge. I also do graphic design.
+            </p>
+            <p>
+                I am commited to continuous learning and excited about the opportunities that lie
+                ahead in tech world.
+            </p>
+         </div>
+        <hr>
+        <h2>Educational Background</h2>
+        <p>
+            I am currently a secondary school student and also pursuing software engineering 
+           studies at PLP Academy. With over three years of experience in frontend web development,
+           I've worked on several projects that reflect my growing skills. I've also participated 
+           in group projects and hackathons,which has strengthened my collaborative and technical abilities 
+        </p>
+        <div class="resume">
+            <button class="download_resume3"><a href="Assets/Resume.pdf" target ="_blank" download="Assets/Resume.pdf">Download my Resume</a>
+        </div>
+     </section>
+
+     <!------------MY SKILLS----------------->
+     <section id="skills">
+        <h2>My Skills</h2>
+                <div class="skills">
+                    <div class="skill">
+                        <img src="Assets/html.png" alt="">
+                    </div>
+                    <li>HTML</li>
+                    <div class="skill">
+                        <img src="Assets/css.png" alt="">
+                    </div>
+                    <li>CSS</li>
+                    <div class="skill">
+                        <img src="Assets/javascript.png" alt="">
+                    </div>
+                    <li>Javascript</li>
+                    <div class="skill">
+                        <img src="Assets/mysql.png" alt="">
+                    </div>
+                    <li>MySQL</li>
+                    <div class="skill">
+                        <img src="Assets/graphic-des.png" alt="">
+                    </div>
+                    <li>Graphic Design</li>
+                </div> 
+            
+     </section>
+
+     <!------------MY PROJECTS----------------->
+     <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects">
+        <div class="project">
+            <div class="frame">
+             <img src="Assets/Henxify.png" alt="">
+            </div>
+            <div class="description">
+             <h3>Henxify: </h3>
+             <p>Website to help find nearby artisans.</p>
+            </div>
+         </div>
+        <div class="project">
+           <div class="frame">
+            <img src="Assets/scrapE.png" alt="">
+           </div>
+           <div class="description">
+            <h3>ScrapE: </h3>
+            <p> Hackathon team project for trading scraps.</p>
+           </div>
+        </div>
+        <div class="project">
+            <div class="frame">
+             <img src="Assets/mySocial.png" alt="">
+            </div>
+            <div class="description">
+             <h3>mySocial: </h3>
+             <p>A social media website I built to test my skills.</p>
+            </div>
+         </div>
+        </div> 
+     </section>
+
+    <!------------CONTACT ME-----------------> 
+    <section id="contact">
+        <div class="contain">
+         <div class="mail">
+            <h2>Contact me</h2>
+            <p>Feel free to reach out for collaborations or inquiries!</p>
+            <p>Email: <a href="mailto:superstephdev@gmail.com">superstephdev@gmail.com</a></p>
+         </div>
+         <div class="sendmessage">
+            <h3>Send me a message</h3>
+            <form action="mailto:superstephdev@gmail.com">
+                <div class="inputname">
+                    <label for="Name:">Name:</label>
+                    <input type="text"name="" id="">
+                </div>
+                <div class="inputmessage">
+                    <label for="Message">Your Message:</label>
+                    <input type="text" name="" id="">
+                </div>
+                <button type="submit">Send</button>
+        
+            </form>
+         </div>
+        </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Stephnie Ugochukwu</p>
+  </footer>
+
+  <script src="index.js"></script>
